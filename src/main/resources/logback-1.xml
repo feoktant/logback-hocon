@@ -3,7 +3,7 @@
         <file>log/application.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
             <!-- daily rollover -->
-            <fileNamePattern>log/myliga-api.log.%d{yyyy-MM-dd}.log</fileNamePattern>
+            <fileNamePattern>log/application.log.%d{yyyy-MM-dd}.log</fileNamePattern>
             <!-- keep 5 days' worth of history -->
             <maxHistory>5</maxHistory>
         </rollingPolicy>
